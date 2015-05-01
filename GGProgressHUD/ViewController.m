@@ -22,7 +22,9 @@
     UIWindow *window = [[[UIApplication sharedApplication] delegate] window];
     [window setBackgroundColor:[UIColor redColor]];
     
-    [self showTip:@"请点击下面按钮"];
+//    [self showTip:@"请点击下面按钮"];
+    [[GGProgressHUD sharedInstance] setMaskType:GGProgressHUDMaskTypeNone];
+    [GGProgressHUD showTip:@"请点击下面按钮" afterDelay:30];
 }
 
 - (void)didReceiveMemoryWarning {
