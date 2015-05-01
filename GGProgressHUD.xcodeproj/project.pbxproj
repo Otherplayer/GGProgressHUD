@@ -14,7 +14,7 @@
 		6349555B1AF3C13800B5E9A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6349555A1AF3C13800B5E9A9 /* Images.xcassets */; };
 		6349555E1AF3C13800B5E9A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6349555C1AF3C13800B5E9A9 /* LaunchScreen.xib */; };
 		6349556A1AF3C13800B5E9A9 /* GGProgressHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 634955691AF3C13800B5E9A9 /* GGProgressHUDTests.m */; };
-		634955771AF3CB7800B5E9A9 /* GGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 634955761AF3CB7800B5E9A9 /* GGProgressHUD.m */; };
+		63C2F38E1AF3EBDF004B1E31 /* GGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C2F38D1AF3EBDF004B1E31 /* GGProgressHUD.m */; };
 		72E097D433564003D45C86C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7B4942C7F0DA0C9840BF31 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,8 +44,8 @@
 		634955681AF3C13800B5E9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		634955691AF3C13800B5E9A9 /* GGProgressHUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGProgressHUDTests.m; sourceTree = "<group>"; };
 		634955731AF3CA4F00B5E9A9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		634955751AF3CB7800B5E9A9 /* GGProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGProgressHUD.h; sourceTree = "<group>"; };
-		634955761AF3CB7800B5E9A9 /* GGProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGProgressHUD.m; sourceTree = "<group>"; };
+		63C2F38C1AF3EBDF004B1E31 /* GGProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGProgressHUD.h; sourceTree = "<group>"; };
+		63C2F38D1AF3EBDF004B1E31 /* GGProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGProgressHUD.m; sourceTree = "<group>"; };
 		7D7B4942C7F0DA0C9840BF31 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED4F0515D228EEB9DFDACEC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,7 +92,7 @@
 		6349554C1AF3C13800B5E9A9 /* GGProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				634955741AF3CB4C00B5E9A9 /* ProgressHUD */,
+				63C2F38F1AF3EBF8004B1E31 /* GGProgressHUD */,
 				634955511AF3C13800B5E9A9 /* AppDelegate.h */,
 				634955521AF3C13800B5E9A9 /* AppDelegate.m */,
 				634955541AF3C13800B5E9A9 /* ViewController.h */,
@@ -132,13 +132,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		634955741AF3CB4C00B5E9A9 /* ProgressHUD */ = {
+		63C2F38F1AF3EBF8004B1E31 /* GGProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				634955751AF3CB7800B5E9A9 /* GGProgressHUD.h */,
-				634955761AF3CB7800B5E9A9 /* GGProgressHUD.m */,
+				63C2F38C1AF3EBDF004B1E31 /* GGProgressHUD.h */,
+				63C2F38D1AF3EBDF004B1E31 /* GGProgressHUD.m */,
 			);
-			name = ProgressHUD;
+			name = GGProgressHUD;
 			sourceTree = "<group>";
 		};
 		9329A1448D74C87A8E10EADF /* Frameworks */ = {
@@ -295,7 +295,7 @@
 			files = (
 				634955561AF3C13800B5E9A9 /* ViewController.m in Sources */,
 				634955531AF3C13800B5E9A9 /* AppDelegate.m in Sources */,
-				634955771AF3CB7800B5E9A9 /* GGProgressHUD.m in Sources */,
+				63C2F38E1AF3EBDF004B1E31 /* GGProgressHUD.m in Sources */,
 				634955501AF3C13800B5E9A9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

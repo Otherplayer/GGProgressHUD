@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>19384319-B8A2-4552-8851-B7FCE52B1D3C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GGProgressHUD</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CA53392D6A2429DE3E67378434FD733B88EA984B</key>
+		<string>https://github.com/Otherplayer/GGProgressHUD.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GGProgressHUD.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CA53392D6A2429DE3E67378434FD733B88EA984B</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Otherplayer/GGProgressHUD.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CA53392D6A2429DE3E67378434FD733B88EA984B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CA53392D6A2429DE3E67378434FD733B88EA984B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GGProgressHUD</string>
+		</dict>
+	</array>
+</dict>
+</plist>
