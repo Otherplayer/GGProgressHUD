@@ -1,6 +1,4 @@
-
 Pod::Spec.new do |s|
-
   s.name         = "GGProgressHUD"
   s.version      = "0.0.1"
   s.summary      = “GGProgressHUD inherit the MBProgressHUD."
@@ -19,8 +17,8 @@ Pod::Spec.new do |s|
   s.author             = { “Otherplayer” => "osmk@qq.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/Otherplayer/GGProgressHUD.git”, :tag => "0.0.1" }
-  s.source_files  = “*.{h,m}"
-  s.framework  = "CoreGraphics"
+  s.source_files = '*.{h,m}'
+  s.framework    = "CoreGraphics"
   s.requires_arc = true
   s.dependency “MBProgressHUD”, "~> 0.9.1"
 
