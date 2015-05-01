@@ -14,7 +14,7 @@ typedef NS_ENUM(NSUInteger, GGProgressHUDMaskType) {
 };
 
 @interface GGProgressHUD : MBProgressHUD
-@property (nonatomic, assign)GGProgressHUDMaskType maskType;
+@property (nonatomic, assign) GGProgressHUDMaskType maskType;
 
 + (instancetype)sharedInstance;
 + (instancetype)showTip:(NSString *)text afterDelay:(NSTimeInterval)delay;
