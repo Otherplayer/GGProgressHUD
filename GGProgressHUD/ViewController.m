@@ -23,7 +23,7 @@
     [window setBackgroundColor:[UIColor redColor]];
     
 //    [self showTip:@"请点击下面按钮"];
-    [[GGProgressHUD sharedInstance] setMaskType:GGProgressHUDMaskTypeNone];
+    [GGShowTip setMaskType:GGProgressHUDMaskTypeNone];
     [GGProgressHUD showTip:@"请点击下面按钮" afterDelay:30];
 }
 
