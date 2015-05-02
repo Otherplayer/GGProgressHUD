@@ -19,12 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    UIWindow *window = [[[UIApplication sharedApplication] delegate] window];
-    [window setBackgroundColor:[UIColor redColor]];
     
-//    [self showTip:@"请点击下面按钮"];
     [GGShowTip setMaskType:GGProgressHUDMaskTypeNone];
     [GGProgressHUD showTip:@"请点击下面按钮" afterDelay:30];
+    
+//    [GGShowTip showProgressWithText:@"safd" dealy:5];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -37,33 +36,8 @@
 
 - (IBAction)clickAction:(id)sender {
     [self.tipButton setTitle:@"Yes, you did it !" forState:UIControlStateNormal];
+    [GGShowTip showTipTextOnly:@"按钮请点击下面按钮请点击下面按钮请点击下面按钮" dealy:50 position:GGProgressHUDPosition_bottom];
 }
 
-
-- (void)showTip:(NSString *)text{ //自定义view
-    
-    UIWindow *window = [[[UIApplication sharedApplication] delegate] window];
-    GGProgressHUD *hud = [GGProgressHUD showHUDAddedTo:window animated:YES];
-    
-    // Configure CustomView
-    UILabel *backg = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 260, 80)];
-    backg.backgroundColor = [UIColor whiteColor];
-    backg.textAlignment = NSTextAlignmentCenter;
-    backg.textColor = [UIColor darkGrayColor];
-    backg.layer.cornerRadius = 10;
-    backg.layer.masksToBounds = YES;
-    
-    NSString *fixText = text?:@"";
-    backg.text = fixText;
-    
-    hud.margin = 0.f;
-    hud.mode = MBProgressHUDModeCustomView;
-    hud.customView = backg;
-    hud.dimBackground = NO;
-    hud.backgroundColor = [UIColor colorWithWhite:0.000 alpha:0.210];
-    hud.removeFromSuperViewOnHide = YES;
-    [hud show:YES];
-    
-}
 
 @end

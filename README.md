@@ -5,22 +5,21 @@ A HUD inherit of MBProgressHUD
 ![image](https://github.com/Otherplayer/GGProgressHUD/raw/master/Others/screenshot.png)
 
 
-## New  ##
+## Use  ##
 ```objective-c
 
-typedef NS_ENUM(NSUInteger, GGProgressHUDMaskType) {
-    GGProgressHUDMaskTypeNone = 1,    // allow user interactions while HUD is displayed
-    GGProgressHUDMaskTypeClear = 2,   // don't allow user interactions
-};
+[GGShowTip setMaskType:GGProgressHUDMaskTypeNone];
 
-@property (nonatomic, assign) GGProgressHUDMaskType maskType;
+[GGProgressHUD showTip:@"请点击下面按钮" afterDelay:30];
+
+[GGShowTip showTipTextOnly:@"请点击下面按钮" dealy:50 position:GGProgressHUDPosition_top];
 
 
 ```
 
 ## [CocoaPods](http://cocoapods.org/)
 
-Add TTSwitch to your `Podfile` and `pod install`.
+Add GGProgressHUD to your `Podfile` and `pod install`.
 
 ```ruby
 pod 'GGProgressHUD', '~> 0.0.2'

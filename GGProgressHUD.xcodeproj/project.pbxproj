@@ -15,7 +15,7 @@
 		6349555E1AF3C13800B5E9A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6349555C1AF3C13800B5E9A9 /* LaunchScreen.xib */; };
 		6349556A1AF3C13800B5E9A9 /* GGProgressHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 634955691AF3C13800B5E9A9 /* GGProgressHUDTests.m */; };
 		635047CD1AF49F100030D065 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 635047CC1AF49F100030D065 /* README.md */; };
-		63C2F38E1AF3EBDF004B1E31 /* GGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C2F38D1AF3EBDF004B1E31 /* GGProgressHUD.m */; };
+		635047D01AF4AE980030D065 /* GGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 635047CF1AF4AE980030D065 /* GGProgressHUD.m */; };
 		72E097D433564003D45C86C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7B4942C7F0DA0C9840BF31 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -46,8 +46,8 @@
 		634955691AF3C13800B5E9A9 /* GGProgressHUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGProgressHUDTests.m; sourceTree = "<group>"; };
 		634955731AF3CA4F00B5E9A9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		635047CC1AF49F100030D065 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		63C2F38C1AF3EBDF004B1E31 /* GGProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGProgressHUD.h; sourceTree = "<group>"; };
-		63C2F38D1AF3EBDF004B1E31 /* GGProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGProgressHUD.m; sourceTree = "<group>"; };
+		635047CE1AF4AE980030D065 /* GGProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGProgressHUD.h; sourceTree = SOURCE_ROOT; };
+		635047CF1AF4AE980030D065 /* GGProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGProgressHUD.m; sourceTree = SOURCE_ROOT; };
 		7D7B4942C7F0DA0C9840BF31 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED4F0515D228EEB9DFDACEC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,8 +138,8 @@
 		63C2F38F1AF3EBF8004B1E31 /* GGProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				63C2F38C1AF3EBDF004B1E31 /* GGProgressHUD.h */,
-				63C2F38D1AF3EBDF004B1E31 /* GGProgressHUD.m */,
+				635047CE1AF4AE980030D065 /* GGProgressHUD.h */,
+				635047CF1AF4AE980030D065 /* GGProgressHUD.m */,
 			);
 			name = GGProgressHUD;
 			sourceTree = "<group>";
@@ -299,8 +299,8 @@
 				634955561AF3C13800B5E9A9 /* ViewController.m in Sources */,
 				634955531AF3C13800B5E9A9 /* AppDelegate.m in Sources */,
 				635047CD1AF49F100030D065 /* README.md in Sources */,
-				63C2F38E1AF3EBDF004B1E31 /* GGProgressHUD.m in Sources */,
 				634955501AF3C13800B5E9A9 /* main.m in Sources */,
+				635047D01AF4AE980030D065 /* GGProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
