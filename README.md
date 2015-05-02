@@ -17,3 +17,15 @@ typedef NS_ENUM(NSUInteger, GGProgressHUDMaskType) {
 
 
 ```
+
+## [CocoaPods](http://cocoapods.org/)
+
+Add TTSwitch to your `Podfile` and `pod install`.
+
+```ruby
+pod 'GGProgressHUD', '~> 0.0.2'
+```
+
+## License
+
+These specifications and CocoaPods are available under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
